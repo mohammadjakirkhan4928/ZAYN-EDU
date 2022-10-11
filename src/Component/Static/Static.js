@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 // import { Line, LineChart, XAxis } from 'recharts';
 
 const Static = () => {
+    const products = useContext(ProductContext);
     return (
         <div>
             <h1>Static</h1>
