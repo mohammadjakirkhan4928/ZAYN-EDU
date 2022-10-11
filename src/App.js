@@ -16,23 +16,18 @@ const router=createBrowserRouter([
     errorElement:<Errorpage></Errorpage>,
     element:<Main></Main>,
     children: [
-      // {
-      //    path:'/',
-      //    element:<Tittle></Tittle>
-      // },
       {
         path:'/',
         loder:()=> fetch('https://openapi.programming-hero.com/api/quiz'),
         element:<Topic></Topic>
       },
-      {
-        path:'/topic',
-        loader:() => fetch(''),
-        element:<Topic></Topic>
-      },
+        // {
+        //   path:'/topic',
+        //   loader:() => fetch(''),
+        //   element:<Topic></Topic>
+        // },
       {
         path:'/static',
-        loder:()=>fetch(''),
         element:<Static></Static>
       },
       {

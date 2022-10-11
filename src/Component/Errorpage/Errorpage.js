@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 const Errorpage = () => {
     return (
         <div>
-             <section className='flex items-center h-screen p-16 bg-gray-100 text-gray-700'>
+             <section className='flex items-center h-screen p-16 bg-gray-500 text-gray-400'>
       <div className='container flex flex-col items-center justify-center px-5 mx-auto my-8'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 512 512'
-          className='w-40 h-40 text-gray-600'
+          className='w-40 h-40 text-rose-900'
         >
           <path
             fill='currentColor'
@@ -32,15 +32,15 @@ const Errorpage = () => {
           ></polygon>
         </svg>
         <div className='max-w-md text-center'>
-          <h2 className='mb-8 font-extrabold text-9xl text-gray-600'>
+          <h2 className='mb-8 font-extrabold text-9xl text-rose-900'>
             <span className='sr-only'>Error</span>404
           </h2>
-          <p className='text-2xl font-semibold md:text-3xl mb-8'>
+          <p className='text-2xl text-rose-900 font-semibold md:text-3xl mb-8'>
             Sorry bro, Come here!
           </p>
           <Link
             to='/'
-            className='px-8 py-3 font-semibold rounded bg-cyan-200 text-gray-900'
+            className='px-8 py-3 font-semibold rounded bg-blue-200 text-gray-900'
           >
             Goooo !
           </Link>

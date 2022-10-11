@@ -3,7 +3,7 @@ import React from 'react';
 import { Button, Card } from 'react-daisyui';
 
 const Product = ({product,handleAddToCart}) => {
-    const {name,logo  }=product
+    const {name,logo}= product
     return (
         <Card {...attrStringify}>
       <Card.Image

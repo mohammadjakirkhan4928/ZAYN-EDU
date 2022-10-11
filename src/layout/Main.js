@@ -8,12 +8,10 @@ const Main = () => {
     const products = useLoaderData();
 
     return (
-
             <ProductContext.Provider value={products}>
                  <Header></Header>
                  <Outlet></Outlet>
             </ProductContext.Provider>
-
     );
 };
 
