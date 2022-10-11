@@ -7,7 +7,7 @@ const Product = ({product,handleAddToCart}) => {
     return (
         <Card {...attrStringify}>
       <Card.Image
-        src= {}
+        src= {logo}
         alt="Shoes"
       />
       <Card.Body>
