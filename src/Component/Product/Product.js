@@ -11,7 +11,7 @@ const Product = ({product,handleAddToCart}) => {
         alt="Shoes"
       />
       <Card.Body>
-        <Card.Title tag="h2">{}</Card.Title>
+        <Card.Title tag="h2">{name}</Card.Title>
 
         <Card.Actions className="justify-end">
           <Button color="primary" onClick={()=>handleAddToCart(product)}>Start Practice</Button>
